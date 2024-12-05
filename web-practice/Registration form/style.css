@@ -1,0 +1,26 @@
+h1, p{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    border: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-weight: 300px;
+}
+ body{
+    color: aliceblue;
+    background-color: #1b1b32 ;
+ }
+
+ .inline{
+    background-color: #0a0a23;
+ }
+
+.box{
+    padding: 10px;
+}

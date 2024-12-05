@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    font-family: "helvetica";
+}
+
+img{
+    height: 275px;
+    width: 470px;
+    margin: auto;
+    position: center; 
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.intro{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 90%;
+    background-color: white;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "bebas neue";
+}
+
+h6{
+    font-size: 1rem;
+    text-align: center;
+}
+
+figcaption{
+    color: grey;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.timeline{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 90%;
+    background-color: black;
+    color: white;
+    padding: 60px;
+
+}
+
+.last{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    font: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.year{
+    font-family: "bebas neue";
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+p{
+    font-family: "bebas neue";
+    font-weight: 2rem;
+    
+}
+
+hr{
+    width: 10%;
+    border: 1px solid #bb9549;
+}

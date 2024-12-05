@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    border: 0px;
+}
+
+p{
+    text-align: center;
+}
+body{
+    background-color: #1b1b32;
+    color : white;
+}
+
+input , textarea{
+    background-color: #0b0b23;
+}
+.submit{
+    background-color: grey;
+}

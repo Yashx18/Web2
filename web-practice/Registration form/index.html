@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="formicon.png">
+    <title>Registration Form</title>
+</head>
+<body>
+    <main>
+        <h1>Registration Form</h1>
+        <p>Pleasse fill out this form with the required information</p>
+        <form action="#">
+            <!-- secction 1 text , email and password input -->
+            <fieldset class="box">
+                <label for="Fname">Enter Your First Name:</label><br>
+                <input type="text" name="Fname" id="Fname"><br>
+                <label for="Lname">Enter Your Last Name:
+                </label><br>
+                <input type="text" name="Lname" id="Lname"><br>
+                <label for="Email">Enter Your Email:
+                </label><br>
+                <input type="email" name="Fname" id="Email"><br>
+                <label for="password">Create a New Password:
+                </label><br>
+                <input type="password" name="password" id="password"><br>
+            </fieldset>
+            <fieldset class="box">
+                <label for="account type">Account type (required)</label><br>
+
+                <label for="Personal"><input type="radio" id="Personal" name="account type" checked
+                        value="Personal">Personal</label><br>
+
+                <label for="Business"><input type="radio" id="Business" name="account type"
+                        value="Business">Business</label>
+            </fieldset>
+            <fieldset class="box">
+                <label for="picture">Upload a profile picture:</label><br><br>
+                <input class="inline" type="file" id="picture" name="picture url"><br><br>
+                <label for="age">
+                    Input your age (years):
+                </label><br>
+                <input type="number" id="age" name="age"><br><br>
+                <label for="referrer">How did you hear about us?</label><br>
+                <select name="referrer" id="referrer">
+                    <option value="(Select one)">(Select one)</option>
+                    <option value="freeCodecamp News">freeCodecamp News</option>
+                    <option value="freeCodecamp YouTube Channel">freeCodecamp YouTube Channel</option>
+                    <option value="freeCodecamp Forum">freeCodecamp Forum</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                <label for="bio">Provide a bio</label><br>
+                <textarea id="bio" name="bio" rows="3" cols="30"
+                    placeholder="I like coding on the beach..."></textarea><br>
+                <label for="terms-and-condition"><br>
+                    <input type="checkbox" required id="terms-and-condition" name="terms-and-condition">I accept the <a
+                        href="">terms and condition</a></label><br><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<HTML>
+  <head>
+    <style>
+      h1,h2,h3,h4,h5,h6 {
+        text-align: center;
+        background-color: grey;
+      }
+      a{
+        color: black;
+      }
+      a:hover{
+        color: blue;
+      }
+    </style>
+    <title>Important tags of HTML</title>
+  </head>
+  <body>
+    <h1>These are heading tags.</h1>
+    <h2>These are heading tags.</h2>
+    <h3>These are heading tags.</h3>
+    <h4>These are heading tags.</h4>
+    <h5>These are heading tags.</h5>
+    <h6>These are heading tags.</h6>
+    
+    <p title="this is a sample for paragraph tag">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam neque incidunt esse ex?<br>
+      <br>
+     using br tag to add line break
+       <u title="Use of underline tag with paragraph tag">Ipsa non accusantium eveniet sapiente dignissimos voluptates fugit accusamus perferendis quam, laboriosam in dolorem. Molestiae, facere veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sint quasi, beatae eveniet voluptatum voluptas a incidunt modi fugit officia architecto harum corrupti non eum! </u>Provident necessitatibus voluptatibus tenetur commodi.
+    Inventore repellendus cupiditate, sint sunt sapiente amet nobis neque tempore maiores at dolore minima ex asperiores fuga ullam illum magnam qui! Nisi quis exercitationem expedita non aliquid odio voluptatibus quasi!
+    Labore nihil voluptates culpa velit facilis vero qui voluptatem veritatis explicabo, placeat illo perferendis iusto quam adipisci. Itaque reprehenderit ratione minima, dolore laborum dicta quam dolores eos maxime tenetur reiciendis!</p>
+
+    <ul title="Unordered list">
+      <li>Red</li>
+      <li>Blue</li>
+      <li>Black</li>
+      <li>Green</li>
+      <li>Brown</li>
+    </ul>
+
+    <ol title="Ordered list">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+      <li>Fourth</li>
+      <li>Fifth</li>
+    </ol>
+
+
+
+    <a href="https://www.w3schools.com/" target="_blank">Link to w3schools</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</HTML> -->

@@ -1,0 +1,275 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    
+    border: 9px solid #1a535c;
+    border-top: 9px solid #4ecdc4;
+    animation: loader 3s steps(1500) 0s infinite normal ;
+
+}
+@keyframes loader{
+    0% {transform: rotate(0deg);}
+    /* 50%{
+        rotate: 180deg;
+    } */
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* .box{
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    top:100px;
+    left:100px; */
+   /* transition: all 2s ease-in-out 0.3ms; */
+ 
+   /* transform: scale(2); */
+   /* transition: all 2s ease-in 0.5ms; */
+   /* animation-name: colorchange;
+   animation-duration: 5s;
+   /* animation-timing-function: ease-in; 
+   animation-delay: 2s ;
+   animation-iteration-count: infinite;
+   animation-direction: reverse; */
+   /* animation: colorchange 2s ease-out 1s 5 normal ;
+
+}
+@keyframes colorchange{
+    0% {left: 0px;
+        background-color: orangered;
+    }
+
+    50% {left: 0px;
+        background-color: red;
+    }
+    
+
+    100%{ left: 100px;
+        background-color: brown;
+        font-size: large;
+    }
+}
+div:hover{ */
+    /* color: white; */
+    /* font-size: large; */
+    /* transform: rotate(360deg);
+    transform: translate(300px, 300px); */
+    /* transform: skew(360deg); */
+    /* transform: scale(2); 
+}*/
+/* div:active{
+    background-color: aqua;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+
+}
+@media(max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width: 300px) and (max-width : 400px){
+    div{
+        background-color: pink;
+    }
+}
+@media( min-width: 400px) and (max-width : 600px){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width : 600px){
+    div{
+        background-color: blue;
+    }
+} */
+/* @media (width : 412px) {
+    div{
+        background-color: aquamarine;
+    }
+} */
+/* @media( min-width : 200px) and ( max-width : 400px){
+    div{
+        background-color: black;
+    }
+}
+/*  */
+/*body{
+    text-align: center;
+}
+
+ div{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+}
+.box1 , .box2 , .box3 , .box4 , .box5{
+     height: 200px;
+    width: 100px;
+}
+.container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-items:center;
+     align-content:flex-start 
+}
+.box1{
+    background-color: red; */
+    /* flex-grow: 1;
+     flex-shrink: 1 */
+     /* for faster flex-shrink more than 1 and for slower flex-shrink less than 1 and for no shrink 0 and for normal speed 1 
+}
+.box2{
+    background-color: blue;
+     flex-grow: 2; */
+    
+     /* align-self: flex-end;  
+}
+.box3{
+    background-color: aqua;
+
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: purple;
+      align-self: flex-end;
+} */
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: grey;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.outermost{
+    height: 450px;
+    width: 450px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.inner{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+body{
+    background-image: url("japan.img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box1{
+    position: static;
+    background-color: red;
+    background-image: url("japan.img.jpg");
+    background-size: cover;
+    
+    /* top: 50px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px; 
+    they wont work because the position is Static
+}
+.box2{
+    /* position: relative;
+    top: 10px;
+    left: 107px; 
+    background-color: green;
+    
+    /* z-index: 1; */
+    /* from it's own position 
+}
+.box3{
+    /* position: absolute;
+    top: 50px;
+    left: 10px; 
+    background-color: pink;
+    /* from it's parent/ancestor(non-static)tag 
+}
+.box4{
+    background-color: blue;
+    /* position: fixed;
+    top: 0px; */
+    /* for whole document 
+}
+.box5{
+    /* position: sticky;
+    top: 0px;
+    z-index: -1; 
+    background-color: brown;
+}
+/* body{
+    font-size: 15px;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    font-size: 10px;
+}
+.two{
+    height: 50%;
+    /* width: 50%; */
+    /* background-color: pink;
+    margin: auto;
+    font-size: 2em; */
+    /* 1.5 times of parent's font size */
+    /* width: 5rem; */
+    /* 5 times of it's font size/own value 
+}
+ */ 
+

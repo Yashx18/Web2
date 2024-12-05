@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+.container{
+    height: 600px;
+    width: 95%;
+    background-color:#c7f0c7; 
+    display: flex;
+    flex-direction: column;
+   border: 6px solid #238000;
+
+}
+.top{
+    height: 150px;
+    width: 96%;
+    background-color:lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 19px;
+    border: 6px solid blue;
+}
+.top_one{
+    height: 90px;
+    width:30%;
+    background-color: #fcdab9;
+    border: 6px solid #f78072;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_inner{
+    height: 70px;
+    width: 45%;
+    background-color: #fac0cb
+    ;
+    border: 5px solid red;
+}
+.main{
+    height: 255px;
+    width: 96%;
+    /* background-color: rgb(208, 88, 88); */
+    margin: 0px 19px 2px 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftbox{
+    height: 220px;
+    width: 50%;
+    background-color: #fabbbb;
+    border: 6px solid #a52b2a;
+}
+.rightbox{
+    height: 98%;
+    width: 50%;
+    /* background-color: #fabbbb; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_up ,.right_down{
+    background-color: #fabbbb;
+    border: 6px solid #a52b2a;
+    height: 100px;
+    width: 95%;
+    margin: 5px;
+}
+
+.bottom{
+    height: 130px;
+    width: 96%;
+    background-color: #add8e6;
+    margin: 19px;
+    border: 6px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    height: 100px;
+    width: 35%;
+    background-color: #e2deff;
+    border: 6px solid #6a5acd;
+    margin: 10px;
+}
+.right{
+    height: 100px;
+    width: 35%;
+    background-color: #e2deff;
+    border: 6px solid #6a5acd;
+    margin: 10px;
+}
+.middle{
+    height: 100px;
+    width: 20%;
+    background-color: #fcdab9;
+    border: 6px solid #f78072;
+    margin: 6px;
+}
+
+
+

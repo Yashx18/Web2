@@ -1,0 +1,883 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+/* abount us css*/
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-left {
+    align-items: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-item-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strawpoll-landing-page {
+    width: 100%;
+}
+
+.front-page {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.front-text {
+    margin-left: 48px;
+}
+
+.navigation-bar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    border-bottom: 1px solid #424f62;
+    background-color: #1f2937;
+}
+
+.nav-bar {
+    width: 90%;
+    /* border: 1px solid black; */
+    background-color: #1f2937;
+}
+
+.left-navbar-section {
+    width: 50%;
+}
+
+.strawpoll-logo {
+    width: 30%;
+}
+
+.left-section-btns {
+    width: 70%;
+}
+
+.right-navbar-section {
+    width: 15%;
+    /* background-color: red; */
+}
+
+.user-btns {
+    width: 100%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 9px 20px 9px 0px;
+}
+
+.user-buttons {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.login-btn {
+    color: #dfe2e8;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.sign-up-btn {
+    color: white;
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.login-btn:hover {
+    color: #818CF8;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+}
+
+.sign-up-btn:hover {
+    color: white;
+    background-color: #4F46E5;
+    border: 1px solid #4F46E5;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.front-landing-page {
+    /* width: 100%; */
+    background-color: #111827;
+}
+
+.front-img-background {
+    position: relative;
+    /* margin-left: 32px; */
+
+}
+
+.front-content {
+    position: absolute;
+    top: 212px;
+    /* left: 32px; */
+    margin-left: 32px;
+}
+
+.index-splash {
+    width: 100%;
+    margin-top: 98px;
+    opacity: 0.29;
+    box-shadow: inset -3px 1px 15px 118px rgba(0, 0, 0, 0.68);
+    border: 1px solid #111827;
+    border-radius: 16px;
+    box-shadow: 10px;
+}
+
+.create-poll:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.schedule-meeting:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.demo:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.pricing:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.navbar-buttons {
+    text-decoration: none;
+    color: #dfe2e8;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px 10px 21px 10px;
+}
+
+.bottom-section {
+    width: 100%;
+    border-top: 1.5px solid #445064;
+    background-color: rgba(17, 24, 39, 255);
+}
+
+.footer-container {
+    width: 90%;
+    padding-top: 60px;
+    /* border: 1px solid white; */
+}
+
+.copyright-text {
+    color: #9CA3AF;
+}
+
+.link-list {
+    list-style: none;
+}
+
+li {
+    margin-top: 16px;
+}
+
+.link {
+    color: rgb(129 140 248);
+
+}
+
+.link:hover {
+    color: rgb(99 102 241);
+}
+
+.about-strawpoll {
+    width: 31%;
+}
+
+.footer-links-section {
+    width: 100%;
+}
+
+.footer-heading {
+    color: #D1D5DB;
+}
+
+.footer-strawpoll-logo {
+    color: #D1D5DB;
+}
+
+.footer-color {
+    color: #D1D5DB;
+}
+
+.clr-w {
+    color: #E5E7EB;
+}
+
+.language-button {
+    font-size: 14px;
+    background-color: rgb(55 65 81);
+    border: 1px solid rgb(55 65 81);
+    padding: 8px 16px;
+    border-radius: 5px;
+
+}
+
+.language-button:hover {
+    background-color: rgb(81, 92, 111);
+    border: 1px solid rgb(81, 92, 111);
+    cursor: pointer;
+}
+
+/* .dropdown-icon{
+    margin-left: 500px;
+} */
+.language-text {
+    margin-right: 9px;
+}
+
+.copyrights {
+    padding: 32px 0 32px 0;
+    margin-top: 48px;
+    width: 100%;
+}
+
+.footer-text {
+    margin-top: 32px;
+    word-spacing: -1px;
+}
+
+.btn {
+    margin-left: 12px;
+    display: flex;
+}
+
+.social-media-links {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.language-option {
+    margin-top: 32px;
+}
+
+.l-button {
+    margin-left: 12px;
+}
+
+.footer-h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.strawpoll-link-section {
+    width: 69%;
+}
+
+.link-box {
+    width: 45%;
+    /* margin-left: 15px; */
+}
+
+.solution-support-section {
+    width: 42%;
+}
+
+.company-legal-section {
+    width: 42%;
+}
+
+.total-users {
+    /* border-top: 1px solid white; */
+    padding: 48px 0 64px 0;
+}
+
+.b-right {
+    border-right: 1px solid #474c58;
+}
+
+.users-number-container {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.users {
+    width: 19%;
+    padding: 20px;
+}
+
+.user-numbers {
+    font-size: 36px;
+    font-weight: 800;
+    color: #818CF8;
+}
+
+.user-text {
+    font-size: 18px;
+    color: #6B7280;
+    font-weight: 400;
+
+}
+
+.p-text {
+    font-size: 15px;
+    color: #6B7280;
+    font-weight: 500;
+}
+
+.h1-text {
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.txt-front-pg {
+    font-size: 20px;
+    color: #C7D2FE;
+    width: 65%;
+    margin-top: 24px;
+}
+
+.c-w {
+    color: white;
+}
+
+.c-b {
+    color: #A5B4FC;
+}
+
+.no-signup {
+    font-size: 14px;
+    color: #C7D2FE;
+
+}
+
+.create-btn {
+    padding: 12px 32px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-w {
+    border: 1px solid white;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(99 102 241);
+    padding: 12px 40px;
+    /* width: 189px; */
+}
+
+.btn-w:hover {
+    background-color: rgb(238 242 255);
+    border: 1px solid rgb(238 242 255);
+}
+
+.btn-b {
+    border: 1px solid rgb(99 102 241);
+    background-color: rgb(99 102 241);
+    color: white;
+}
+
+.btn-b:hover {
+    --tw-bg-opacity: 0.7;
+}
+
+.poll-create {
+    width: 34.5%;
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+
+.get-started {
+    background-color: #202937;
+    width: 100%;
+    background-image: linear-gradient(to left, #313541 10%, #202937 80%);
+}
+
+.gs-container {
+    width: 100%;
+    margin: 0px 34.500px;
+    padding: 96px 32px;
+}
+
+.clr-b {
+    color: #818CF8;
+}
+
+.gs-txt {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.gs-head {
+    line-height: 1.1;
+    word-spacing: -0.5px;
+}
+
+/* .gs-btns{
+
+} */
+.gs-btn {
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+.gs-btn-create {
+    padding: 12px 16px;
+    border-color: #EEF2FF;
+    color: #3730A3;
+    background-color: #EEF2FF;
+}
+
+.gs-btn-signup {
+    padding: 12px 32px;
+    color: white;
+    border-color: #6366F199;
+    background-color: #6366F199;
+    margin-left: 12px;
+}
+
+.features {
+    width: 100%;
+    padding: 64px 0px 128px 0px;
+    background-color: #111827;
+}
+
+.features-container {
+    padding: 0px 32px;
+    margin: 0px 34.500px;
+}
+
+.top-feat-txt {
+    text-align: center;
+}
+
+.feat-h2 {
+    color: #6366f1;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.txt-f-w {
+    font-size: 36px;
+    color: #E5E7EB;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.txt-f-g {
+    font-size: 19px;
+    color: #6B7280;
+    font-weight: 400;
+    margin: 20px 201.750px 0px 201.750px;
+}
+
+.feature-box {
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+}
+
+.f-icon {
+    padding: 12px;
+    /* border: 1px solid white; */
+    /* width: 48px; */
+    color: #D1D5DB;
+    display: inline-flex;
+    border-radius: 5px;
+    background-color: #818CF8;
+}
+
+.feat-content {
+    text-align: center;
+    padding: 0px 24px 32px 24px;
+
+    margin-top: -24px;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+    background-color: #1f2937;
+
+}
+
+.feat-ct-h3 {
+    font-size: 18px;
+    color: #E5E7EB;
+    /* margin-top: px; */
+}
+
+.feat-ct-txt {
+    font-size: 16px;
+    color: #6B7280;
+    margin-top: 20px;
+}
+
+.feats {
+    padding-top: 24px;
+    background-color: rgb(31 41 55);
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+
+}
+
+.feat-icon {
+    position: relative;
+    top: -25px;
+}
+
+.description {
+    background-color: rgb(31 41 55);
+    padding: 64px 0px 128px 0px;
+}
+
+.poll-section {
+    width: 100%;
+}
+
+.meeting-section {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.cntnr {
+    width: 95%;
+    justify-content: space-between;
+}
+
+.desc-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.clr-gry {
+    color: #6B7280;
+}
+
+.desc-p {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.text-white {
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #6366f1;
+}
+
+.inflex {
+    display: inline-flex;
+}
+
+
+.poll-section-btns,
+.meeting-section-btns {
+    margin-top: 24px;
+}
+
+.poll-btns {
+    padding: 12px 16px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.c-poll-btn {
+    border-color: #6366f1;
+    color: white;
+    background-color: #6366f1;
+}
+
+.c-poll-btn:hover {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+}
+
+.ex-btn {
+    background-color: #374151;
+    color: #D1D5DB;
+    border-color: #374151;
+    margin-left: 12px;
+}
+
+.ex-btn:hover {
+    background-color: #4b5563;
+    border-color: #4b5563;
+}
+
+.meet-img,
+.cntnr-img {
+    border: 1px solid rgb(74, 75, 86);
+    border-radius: 13px;
+    width: 100%;
+}
+
+.left-section {
+    padding: 64px 80px 64px 20px;
+}
+
+.right-section {
+    padding: 128px 42px 128px 100px;
+}
+
+.bottom-feats-container {
+    margin-top: 48px;
+}
+
+.view-btn {
+    margin-left: 16px;
+}
+
+.left-txt,
+.right-img {
+    width: 100%;
+}
+
+.left-img,
+.right-txt {
+    width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    .right-section {
+        padding: 70px 42px 70px 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .right-section {
+        padding: 70px 42px 70px 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 1170px) {
+    .section-container {
+        flex-direction: column;
+    }
+
+    .meeting-container {
+        flex-direction: column-reverse;
+    }
+
+    .right-section {
+        padding: 64px 80px 64px 20px;
+    }
+
+    .meeting-section {
+        margin-top: 48px;
+    }
+    .create-btn{
+        padding: 12px 30px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .bottom-feats-container {
+        flex-direction: column;
+    }
+    .txt-f-g{
+        width: 100%;
+    }
+
+    .feature-box {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .feats{
+        width: 100%;
+    }
+
+    .gs-container {
+        flex-direction: column;
+        margin: 0px
+    }
+
+    .gs-head,
+    .gs-btns {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .gs-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .users-number-container {
+        flex-direction: column;
+    }
+    .feature-box{
+        width: 100%;
+    }
+    .front-text{
+        border: 1px solid #111827;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .front-content{
+        position: static;
+        margin-top: 100px;
+        margin-left: 0px;
+        padding: 64px 16px;
+    }
+    .front-text{
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt-front-pg{
+        text-align: center;
+    }
+    .poll-create{
+        width: 62%;
+        flex-direction: column;
+    }
+    .btn-b{
+        margin-top: 15px;
+    }
+    .no-signup{
+        display: none;
+    }
+
+    .b-right {
+        border: none;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+
+    .footer-links-section {
+        flex-direction: column;
+    }
+
+    .settings-col {
+        flex-direction: column;
+    }
+
+    .opts-box {
+        width: 100%;
+    }
+
+    .left-col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .right-col {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .about-strawpoll {
+        width: 100%;
+    }
+
+    .strawpoll-link-section {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .solution-support-section {
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+
+    .company-legal-section {
+        width: 100%;
+    }
+
+    .index-splash {
+        display: none;
+    }
+    .gs-btn{
+        width: 100% ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .index-splash {
+        display: none;
+    }
+    .features-container {
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 450px){
+    .h1-text{
+        font-size: 48px;
+    }
+    .txt-front-pg{
+        font-size: 18px;
+    }
+    .left-section {
+        padding: 50px 15px 50px 15px;
+    }
+    .right-section {
+        padding: 40px 15px 40px 15px;
+    }
+    .poll-btns{
+        padding: 10px 12px;
+    }
+    .gs-btn{
+        padding: 8px 12px;
+    }
+}

@@ -1,0 +1,854 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.align-item-left {
+  align-items: flex-start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-item-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strawpoll-landing-page {
+  width: 100%;
+}
+
+.front-page {
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.navigation-bar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-bottom: 1px solid #424f62;
+  background-color: #1f2937;
+}
+
+.nav-bar {
+  width: 90%;
+  /* border: 1px solid black; */
+  background-color: #1f2937;
+}
+
+.left-navbar-section {
+  width: 50%;
+}
+
+.strawpoll-logo {
+  width: 30%;
+}
+
+.left-section-btns {
+  width: 70%;
+}
+
+.right-navbar-section {
+  width: 15%;
+  /* background-color: red; */
+}
+
+.user-btns {
+  width: 100%;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  padding: 9px 20px 9px 0px;
+}
+
+.user-buttons {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-btn {
+  color: #dfe2e8;
+  /* border: 1px solid black; */
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+}
+
+.sign-up-btn {
+  color: white;
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.front-landing-page {
+  /* width: 100%; */
+  background-color: #111827;
+}
+
+.front-img-background{
+  max-width: 100%;
+  }
+
+.index-splash {
+  width: 100%;
+  margin-top: 98px;
+  border: 1px solid #111827;
+  border-radius: 16px;
+}
+
+.create-poll:hover {
+  border-bottom: 2px solid rgb(192, 187, 187);
+  padding: 21px 10px 19px 10px;
+  color: #cbced2;
+}
+
+.schedule-meeting:hover {
+  border-bottom: 2px solid rgb(192, 187, 187);
+  padding: 21px 10px 19px 10px;
+  color: #cbced2;
+}
+
+.demo:hover {
+  border-bottom: 2px solid rgb(192, 187, 187);
+  padding: 21px 10px 19px 10px;
+  color: #cbced2;
+}
+
+.pricing:hover {
+  border-bottom: 2px solid rgb(192, 187, 187);
+  padding: 21px 10px 19px 10px;
+  color: #cbced2;
+}
+
+.navbar-buttons {
+  text-decoration: none;
+  color: #dfe2e8;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 21px 10px 21px 10px;
+}
+
+.login-btn:hover {
+  color: #818cf8;
+  /* border: 1px solid black; */
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+}
+
+.sign-up-btn:hover {
+  color: white;
+  background-color: #4f46e5;
+  border: 1px solid #4f46e5;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.bottom-section {
+  width: 100%;
+  border-top: 1.5px solid #445064;
+  background-color: rgba(17, 24, 39, 255);
+}
+
+.footer-container {
+  width: 90%;
+  padding-top: 60px;
+  /* border: 1px solid white; */
+}
+
+.copyright-text {
+  color: #9ca3af;
+}
+
+.link-list {
+  list-style: none;
+}
+
+li {
+  margin-top: 16px;
+}
+
+.link {
+  color: rgb(129 140 248);
+}
+
+.link:hover {
+  color: rgb(99 102 241);
+}
+
+.about-strawpoll {
+  width: 31%;
+}
+
+.footer-links-section {
+  width: 100%;
+}
+
+.footer-heading {
+  color: #d1d5db;
+}
+
+.footer-strawpoll-logo {
+  color: #d1d5db;
+}
+
+.footer-color {
+  color: #d1d5db;
+}
+
+.language {
+  color: #e5e7eb;
+}
+
+.language-button {
+  font-size: 14px;
+  background-color: rgb(55 65 81);
+  border: 1px solid rgb(55 65 81);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.language-button:hover {
+  background-color: rgb(81, 92, 111);
+  border: 1px solid rgb(81, 92, 111);
+  cursor: pointer;
+}
+
+/* .dropdown-icon{
+    margin-left: 500px;
+  } */
+.language-text {
+  margin-right: 9px;
+}
+
+.copyrights {
+  padding: 32px 0 32px 0;
+  margin-top: 48px;
+  width: 100%;
+}
+
+.footer-text {
+  margin-top: 32px;
+  word-spacing: -1px;
+}
+
+.btn {
+  margin-left: 12px;
+  display: flex;
+}
+
+.social-media-links {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.language-option {
+  margin-top: 32px;
+}
+
+.l-button {
+  margin-left: 12px;
+}
+
+.footer-h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.strawpoll-link-section {
+  width: 69%;
+}
+
+.link-box {
+  width: 45%;
+  /* margin-left: 15px; */
+}
+
+.solution-support-section {
+  width: 42%;
+}
+
+.company-legal-section {
+  width: 42%;
+}
+
+.create-poll-page {
+  width: 100%;
+  margin-top: 65px;
+  background-color: #111827;
+}
+
+.cp-heading {
+  font-size: 30px;
+  color: #f3f4f6;
+  font-weight: 700;
+}
+
+.cp-txt {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.cp-top-section {
+  text-align: center;
+  width: 100%;
+}
+
+.form-txt {
+  font-size: 14px;
+}
+
+.question {
+  width: 100%;
+}
+
+.create-poll-container {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.cp-bottom-section {
+  width: 100%;
+}
+
+.total-users {
+  width: 95%;
+  /* border-top: 1px solid white; */
+  padding: 48px 0 64px 0;
+}
+
+.b-right {
+  border-right: 1px solid #474c58;
+}
+
+.users-number-container {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.users {
+  width: 19%;
+  padding: 20px;
+}
+
+.user-numbers {
+  font-size: 36px;
+  font-weight: 800;
+  color: #818CF8;
+}
+
+.user-text {
+  font-size: 18px;
+  color: #6B7280;
+  font-weight: 400;
+
+}
+
+.p-text {
+  font-size: 15px;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.q-input-txt {
+  padding: 12px 16px;
+  color: white;
+  font-size: 16px;
+  background-color: #ffffff0D;
+  border: 1px solid #ffffff1a;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.label {
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+.form-section {
+  width: 51%;
+  padding: 24px;
+  margin-top: 32px;
+  border: 1px solid #1f2937;
+  border-top-width: 4px;
+  border-top-color: rgb(129 140 248);
+  border-radius: 6px;
+  background-color: #1f2937;
+
+}
+
+.add-btn-box {
+  margin-top: 12px;
+}
+
+.add-btn {
+  background-color: #1f2937;
+  border: none;
+  color: #6B7280;
+}
+
+.add-btn:hover {
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.form-txt {
+  margin-left: 4px;
+}
+
+.poll-type-box {
+  margin-top: 24px;
+
+}
+
+.opts-box {
+  margin-top: 4px;
+  padding: 8px 40px 8px 12px;
+  background-color: #ffffff0d;
+  font-size: 16px;
+  border: 1px solid #ffffff1a;
+  outline: none;
+  border-radius: 5px;
+  color: #d1d5db;
+  width: 48%;
+}
+
+option {
+  background-color: #374151;
+  font-size: 16px;
+  padding: 8px 36px 8px 12px;
+  color: #e5e7eb;
+}
+
+.pst-btn {
+  font-size: 14px;
+  color: #818CF8;
+  background-color: #1f2937;
+  outline: none;
+  border: none;
+}
+
+.pst-btn:hover {
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.ans-opt {
+  margin-top: 24px;
+}
+
+.opt-sec {
+  padding: 8px 12px;
+  background-color: #ffffff0d;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ffffff1a;
+  border-radius: 5px;
+}
+
+.one {
+  margin: 4px 0px 4px;
+}
+
+.two {
+  margin: 4px 0px 8px;
+}
+
+.del {
+  color: #9ca3af;
+  position: absolute;
+  top: 139px;
+  left: 600px;
+}
+
+.add-opt {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #374151;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-opt:hover {
+  background-color: #4b5563;
+  cursor: pointer;
+}
+
+.othr-btn {
+  background-color: #1f2937;
+  color: #818CF8;
+  border: none;
+  font-size: 16px;
+}
+
+.settings-sec {
+  margin-top: 24px;
+  padding: 24px 0px;
+  border-top: 1px solid #ffffff1a;
+  border-bottom: 1px solid #ffffff1a;
+
+}
+
+.setting-top {
+  font-size: 18px;
+  color: #f3f4f6;
+}
+
+fieldset {
+  outline: none;
+  width: 100%;
+  border: none;
+}
+
+.settings-col {
+  margin-top: 24px;
+  align-content: stretch;
+}
+
+.check-opt {
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+.c-poll {
+  padding: 8px 16px;
+  margin-top: 24px;
+  border: 1px solid #6366f1;
+  background-color: #6366f1;
+  color: white;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 7px;
+
+}
+
+.advnc-stng {
+  font-size: 14px;
+  color: #818CF8;
+  background-color: #1f2937;
+  border: none;
+}
+
+.right-col {
+  align-content: end;
+  border-left: 1px solid #ffffff1a;
+  padding-left: 30px;
+}
+
+.left-col,
+.right-col {
+  width: 45%;
+}
+
+.lrn-mr {
+  background-color: #1f2937;
+  border: none;
+  color: #818CF8;
+  font-size: 14px;
+}
+
+.lrn-mr:hover {
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.select {
+  width: 100%;
+  outline: none;
+  padding: 8px 40px 8px 12px;
+  font-size: 14px;
+  background-color: #ffffff0d;
+  color: white;
+  border: 1px solid #ffffff1a;
+  border-radius: 5px;
+}
+
+.info-btn {
+  margin-bottom: 4px;
+}
+
+.r-p-name {
+  margin-top: 24px;
+}
+
+.right-col-btns {
+  margin-top: 24px;
+}
+
+.mgn-left {
+  margin-left: 5px;
+}
+
+.pro-box {
+  padding: 4px 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 7px;
+  background-color: #4f46e5;
+}
+
+.svg-info {
+  background-color: #1f2937;
+  color: #818CF8;
+  border: none;
+}
+
+.advance-s-box {
+  margin-top: 24px;
+}
+
+.advnc-stng:hover {
+  color: #6366f1;
+  cursor: pointer
+}
+
+.othr-btn:hover {
+  color: #6366f1;
+  cursor: pointer
+}
+
+.c-poll:hover {
+  background-color: #4f46e5;
+  cursor: pointer;
+}
+
+.m-left {
+  margin-left: 7px;
+}
+
+.or {
+  color: #d1d5db;
+}
+
+/* <span class="del"><svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="" width="20px" >
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                          
+                          </svg></span> */
+main,
+footer {
+  width: 100%;
+}
+
+.inpt-sec {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+
+  .left-section-btns {
+    display: none;
+  }
+  /* .left-navbar-section{
+    width: 100%;
+  } */
+  .strawpoll-logo{
+    width: 100%;
+  }
+  .user-btns {
+    display: none;
+  }
+}
+/* @media screen and (max-width: 750px) {
+ 
+} */
+
+@media screen and (max-width: 600px) {
+ 
+   .users-number-container {
+    flex-direction: column;
+  }
+  .b-right{
+    border: none;
+  }
+  .form-section{
+    width: 100%;
+  }
+  .footer-links-section {
+    flex-direction: column;
+  }
+  .settings-col{
+    flex-direction: column;
+  }
+  .opts-box{
+    width: 100%;
+  }
+  .left-col{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .right-col{
+    width: 100%;
+    padding: 0px;
+    border: none;
+  }
+  .about-strawpoll {
+    width: 100%;
+  }
+
+  .strawpoll-link-section {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .solution-support-section {
+    width: 100%;
+    margin: 40px 0px 30px;
+  }
+
+  .company-legal-section {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .new-update-vote {
+    display: none;
+  }
+  .p-text{
+    text-align: center;
+  }
+
+  .demo-middle {
+    width: 98%;
+  }
+
+  .demo-top {
+    padding: 64px 0px;
+  }
+
+  .top-h2 {
+    font-size: 30px;
+    word-spacing: -1.8px;
+    font-weight: 700;
+  }
+
+  .update-btn {
+    padding: 8px 14px;
+  }
+
+  .result-btn {
+    padding: 8px 8px;
+    margin-left: 10px;
+  }
+
+  .demo-bottom {
+    width: 98%;
+  }
+
+  .form-opt {
+    font-size: 20px;
+  }
+
+  .n-votes {
+    display: none;
+  }
+
+  .exp-container {
+    flex-wrap: wrap;
+  }
+
+  .top-exp {
+    margin-bottom: 0px;
+  }
+
+  .exp {
+    width: 100%;
+    margin-bottom: 13px;
+  }
+
+  .btm-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .f-p-txt {
+    font-size: 20px;
+  }
+
+  .footer-container {
+    width: 94%;
+  }
+
+  .footer-links-section {
+    flex-direction: column;
+  }
+
+  .about-strawpoll {
+    width: 100%;
+  }
+
+  .strawpoll-link-section {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .solution-support-section {
+    width: 100%;
+    margin: 40px 0px 30px;
+  }
+
+  .company-legal-section {
+    width: 100%;
+  }
+
+  .left-section-btns {
+    display: none;
+  }
+
+  .user-btns {
+    display: none;
+  }
+
+  .copyrights {
+    display: block;
+  }
+}

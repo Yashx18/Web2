@@ -1,0 +1,653 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-left {
+    align-items: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-item-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strawpoll-landing-page {
+    width: 100%;
+}
+
+.front-page {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.navigation-bar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid #424f62;
+    background-color: #1f2937;
+}
+
+.nav-bar {
+    width: 90%;
+    /* border: 1px solid black; */
+    background-color: #1f2937;
+}
+
+.left-navbar-section {
+    width: 50%;
+}
+
+.strawpoll-logo {
+    width: 30%;
+}
+
+.left-section-btns {
+    width: 70%;
+}
+
+.right-navbar-section {
+    width: 15%;
+    /* background-color: red; */
+}
+
+.user-btns {
+    width: 100%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 9px 20px 9px 0px;
+}
+
+.user-buttons {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.login-btn {
+    color: #dfe2e8;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+}
+
+.sign-up-btn {
+    color: white;
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.front-landing-page {
+    /* width: 100%; */
+    background-color: #111827;
+}
+
+/* .front-img-background{
+} */
+.index-splash {
+    margin-top: 98px;
+    border: 1px solid #111827;
+    border-radius: 16px;
+    box-shadow: 10px;
+}
+
+.create-poll:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.schedule-meeting:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.demo:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.pricing:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.login-btn:hover {
+    color: #818CF8;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+}
+
+.sign-up-btn:hover {
+    color: white;
+    background-color: #4F46E5;
+    border: 1px solid #4F46E5;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.navbar-buttons {
+    text-decoration: none;
+    color: #dfe2e8;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px 10px 21px 10px;
+}
+
+.footer-container {
+    width: 90%;
+    padding-top: 60px;
+    /* border: 1px solid white; */
+}
+
+.copyright-text {
+    color: #9CA3AF;
+}
+
+.link-list {
+    list-style: none;
+}
+
+li {
+    margin-top: 16px;
+}
+
+.link {
+    color: rgb(129 140 248);
+
+}
+
+.link:hover {
+    color: rgb(99 102 241);
+}
+
+.about-strawpoll {
+    width: 31%;
+}
+
+.footer-links-section {
+    width: 100%;
+}
+
+.footer-heading {
+    color: #D1D5DB;
+}
+
+.footer-strawpoll-logo {
+    color: #D1D5DB;
+}
+
+.footer-color {
+    color: #D1D5DB;
+}
+
+.language {
+    color: #E5E7EB;
+}
+
+.language-button {
+    font-size: 14px;
+    background-color: rgb(55 65 81);
+    border: 1px solid rgb(55 65 81);
+    padding: 8px 16px;
+    border-radius: 5px;
+
+}
+
+.language-button:hover {
+    background-color: rgb(81, 92, 111);
+    border: 1px solid rgb(81, 92, 111);
+    cursor: pointer;
+}
+
+/* .dropdown-icon{
+    margin-left: 500px;
+} */
+.language-text {
+    margin-right: 9px;
+}
+
+.copyrights {
+    padding: 32px 0 32px 0;
+    margin-top: 48px;
+    width: 100%;
+}
+
+.footer-text {
+    margin-top: 32px;
+    word-spacing: -1px;
+}
+
+.btn {
+    margin-left: 12px;
+    display: flex;
+}
+
+.social-media-links {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.language-option {
+    margin-top: 32px;
+}
+
+.l-button {
+    margin-left: 12px;
+}
+
+.footer-h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.strawpoll-link-section {
+    width: 69%;
+}
+
+.link-box {
+    width: 45%;
+    /* margin-left: 15px; */
+}
+
+.solution-support-section {
+    width: 42%;
+}
+
+.company-legal-section {
+    width: 42%;
+}
+
+.bottom-section {
+    width: 100%;
+    border-top: 1.5px solid #445064;
+    background-color: rgba(17, 24, 39, 255);
+}
+
+.demo-page {
+    margin-top: 65px;
+    background-color: rgb(17 24 39);
+    width: 100%;
+}
+
+.demo-container {
+    width: 95%;
+}
+
+.demo-top {
+    padding: 64px 48px;
+}
+
+.top-h2 {
+    color: #E2E8F0;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.top-p {
+    font-size: 18px;
+    color: #94A3B8;
+}
+
+.bottom-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #E2E8F0;
+    margin-bottom: 16px;
+}
+
+.bottom-p {
+    font-size: 16px;
+    color: #94A3B8;
+    margin-bottom: 40px;
+}
+
+.ep-txt {
+    margin-bottom: 12px;
+}
+
+.ep-h {
+    color: #E2E8F0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.exp-heading {
+    color: #e2e8f0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.exp-txt {
+    color: #94a3b8;
+    font-size: 15px;
+    /* line-height: 1; */
+    margin-top: 4px;
+}
+
+.exp-container {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    /* width: %; */
+}
+
+.exp {
+    width: 45.5%;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #1f2937;
+    line-height: 95%;
+}
+.top-exp{
+    margin-bottom: 13px;
+}
+
+.bottom-link{
+    font-size: 16px;
+    color: #818CF8;
+    
+}
+.btm-link{
+    margin-bottom: 64px;
+}
+.demo-bottom{
+    border-top: 1px solid #374151;
+    padding-top: 32px;
+    margin-top: 30px;
+    width: 70%;
+}
+.m-awrd{
+    padding: 23px 16px;
+}
+.exp:hover{
+    border-color: #374151;
+    cursor: pointer;
+}
+.form-btn-a{
+    border: 1px solid ;
+    border-radius: 6px;
+}
+.update-btn{
+    padding: 8px 32px;
+    background-color: #6366f1;
+    color: white;
+    border-color: #6366f1;
+}
+.update-btn:hover{
+    background-color: #7377ff;
+    border-color: #7377ff;
+}
+.result-btn{
+    padding: 8px 16px;
+    margin-left: 16px;
+    background-color: #ffffff0d;
+    border-color:  #4a4a4d;
+    color: #94A3B8;
+}
+.result-btn:hover{
+    background-color: #ffffff0d;
+    border-color: #ffffff0d;
+}
+.form-btns{
+    margin-top: 32px;
+}
+
+.result-icon{
+    margin: 0px 8px 0px -4px;
+}
+.form-h{
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 600;
+}
+.f-p-txt{
+    font-size: 16px;
+    color: #94A3B8;
+}
+fieldset{
+    border: none;
+    margin-top: 16px;
+}
+.form-opt{
+    font-size: 17px;
+    color: #94A3B8;
+    margin-left: 12px;
+    font-weight: 400;
+}
+.opt-se{
+    margin-top: 12px;
+   
+}
+.opt-all{
+    border: 1px solid #ffffff24;
+    padding: 12px 16px 12px 20px;
+    border-radius: 7px;
+}
+.c-hov{
+    cursor: pointer;
+}
+.new-vt-txt{
+    font-size: 16px;
+    color: #94A3B8;
+}
+.new-vote-link{
+    font-size: 16px;
+    color: #818CF8;
+}
+.new-update-vote{
+    margin-top: 32px;
+}
+.new-vote-link:hover{
+    color: #6366f1;
+}
+.polling-form{
+    padding: 24px;
+}
+.demo-middle{
+    margin-bottom: 32px;
+    width: 56%;
+    border: 1px solid #374151;
+    border-top-width: 4px;
+    background-color: #1f2937;
+    border-radius: 6px;
+    border-top-color: #818CF8;
+}
+.votes{
+    padding: 12px 24px;
+    border-top: 1px solid #94A3B8;
+}
+.n-votes{
+    font-size: 16px;
+    color: #94A3B8;
+}
+.f-p-box{
+    margin-top: 32px;
+}
+.opt-one{
+    margin-top: 0px;
+}
+@media screen and (max-width: 1335px) {
+    .demo-middle{
+        width: 80%;
+    }
+    .demo-bottom{
+        width: 80%;
+    }
+    .top-exp{
+        margin: 0px;
+    }
+    .exp{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .left-section-btns{
+        display: none;
+    }
+    .user-btns{
+        display: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .demo-middle{
+        width: 90%;
+    }
+    .demo-bottom{
+        width: 90%;
+    }
+    .footer-links-section{
+        flex-direction: column;
+    }
+    .about-strawpoll{
+        width: 100%;
+    }
+    .strawpoll-link-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .solution-support-section{
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+    .company-legal-section{
+        width: 100%;
+    }
+}
+/* @media screen and (max-width: 600px) {
+    .demo-middle{
+        width: 100%;
+    }
+} */
+@media screen and (max-width: 480px) {
+    .new-update-vote{
+        display: none;
+    }
+    .demo-middle{
+        width: 98%;
+    }
+    .demo-top{
+        padding: 64px 0px;
+    }
+    .top-h2{
+        font-size: 30px;
+        word-spacing: -1.8px;
+        font-weight: 700;
+    }
+    .update-btn{
+        padding: 8px 14px;
+    }
+    .result-btn{
+        padding: 8px 8px;
+        margin-left: 10px;
+    }
+    .demo-bottom{
+        width: 98%;
+    }
+    .form-opt{
+        font-size: 20px;
+    }
+    .n-votes{
+        display: none;
+    }
+    .exp-container{
+        flex-wrap: wrap;
+    }
+    .top-exp{
+        margin-bottom: 0px;
+    }
+    .exp{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .btm-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .f-p-txt{
+        font-size: 20px;
+    }
+    .footer-container{
+        width: 94%;
+    }
+    .footer-links-section{
+        flex-direction: column;
+    }
+    .about-strawpoll{
+        width: 100%;
+    }
+    .strawpoll-link-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .solution-support-section{
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+    .company-legal-section{
+        width: 100%;
+    }
+    .left-section-btns{
+        display: none;
+    }
+    .user-btns{
+        display: none;
+    }
+    .copyrights{
+        display: block;
+    }
+}
+

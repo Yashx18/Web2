@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="formicon.png">
+    <title>Registration Form</title>
+</head>
+<body>
+    <main>
+        <h1>Registration Form</h1>
+        <p>Pleasse fill out this form with the required information</p>
+        <form action="#">
+            <!-- secction 1 text , email and password input -->
+            <fieldset class="box">
+                <label for="Fname">Enter Your First Name:</label><br>
+                <input type="text" name="Fname" id="Fname"><br>
+                <label for="Lname">Enter Your Last Name:
+                </label><br>
+                <input type="text" name="Lname" id="Lname"><br>
+                <label for="Email">Enter Your Email:
+                </label><br>
+                <input type="email" name="Fname" id="Email"><br>
+                <label for="password">Create a New Password:
+                </label><br>
+                <input type="password" name="password" id="password"><br>
+            </fieldset>
+            <fieldset class="box">
+                <label for="account type">Account type (required)</label><br>
+
+                <label for="Personal"><input type="radio" id="Personal" name="account type" checked
+                        value="Personal">Personal</label><br>
+
+                <label for="Business"><input type="radio" id="Business" name="account type"
+                        value="Business">Business</label>
+            </fieldset>
+            <fieldset class="box">
+                <label for="picture">Upload a profile picture:</label><br><br>
+                <input class="inline" type="file" id="picture" name="picture url"><br><br>
+                <label for="age">
+                    Input your age (years):
+                </label><br>
+                <input type="number" id="age" name="age"><br><br>
+                <label for="referrer">How did you hear about us?</label><br>
+                <select name="referrer" id="referrer">
+                    <option value="(Select one)">(Select one)</option>
+                    <option value="freeCodecamp News">freeCodecamp News</option>
+                    <option value="freeCodecamp YouTube Channel">freeCodecamp YouTube Channel</option>
+                    <option value="freeCodecamp Forum">freeCodecamp Forum</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                <label for="bio">Provide a bio</label><br>
+                <textarea id="bio" name="bio" rows="3" cols="30"
+                    placeholder="I like coding on the beach..."></textarea><br>
+                <label for="terms-and-condition"><br>
+                    <input type="checkbox" required id="terms-and-condition" name="terms-and-condition">I accept the <a
+                        href="">terms and condition</a></label><br><br>
+                <input  class="submit"  type="submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
+

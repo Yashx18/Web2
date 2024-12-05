@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 10, 55);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-gray{
+    color: gray;
+}
+nav {
+    background-color: rgb(9, 9, 99);
+    width: 100%;
+
+}
+
+.left {
+    font-size: 1.5rem;
+    width: 30%;
+    /* text-align: center; */
+    margin: 10px 0;
+}
+
+.right {
+    width: 40%;
+    margin: 10px 0;
+}
+
+.right ul li {
+    text-decoration: none;
+    list-style: none;
+    /* margin-left: 10px; */
+    font-size: 1rem;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+    /* font-size: 1.04rem; */
+}
+
+.right ul li a:hover {
+    color: rgb(94, 94, 206);
+    /* font-size: 16px; */
+
+    /* border-bottom: 2px solid rgb(94, 94, 206); */
+}
+
+.firstSection {
+    width: 100%;
+}
+
+.leftSide {
+    width: 40%;
+    margin: 80px 0;
+    font-size: 2rem;
+}
+
+.rightSide {
+    width: 40%;
+    margin: 80px 0;
+    font-size: 2rem;
+}
+
+#element {
+    color: blueviolet;
+}
+
+#name {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.rightSide img {
+    width: 80%;
+}
+.secondSection{
+    width: 100%;
+    /* background-color: red; */
+}
+main div hr{
+    width: 100%;
+    border: 0;
+    background-color: rgb(103, 103, 213);
+    height: 1.5px;
+    margin: 30px 0;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}

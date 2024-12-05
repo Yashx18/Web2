@@ -1,0 +1,42 @@
+table{
+    background-color: black;
+    text-align: center;
+}
+tr{
+    background: #f8ad9d;
+}
+ 
+th{
+    background-color: #9f86c0;
+}
+
+td{
+    width: 150px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.caption{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: underline;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #be95c4;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
